@@ -1,0 +1,27 @@
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 48px;
+  align-items: center;
+}
+.headerLogo {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.headerMenu {
+  display: flex;
+}
+.headerOption {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 8px;
+}
+.headerButton {
+  height: 28px;
+}
