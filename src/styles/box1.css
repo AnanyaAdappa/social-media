@@ -1,0 +1,55 @@
+.B1 {
+  display: flex;
+  width: 1152px;
+  padding: 48px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+}
+.subB1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+.TextB1 {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  align-items: center;
+  width: 50%;
+}
+.gets {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.gets2 {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: #000;
+}
+.gets1 {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #fff;
+}
+.component1 {
+  width: 434.342px;
+  height: 640.283px;
+  flex-shrink: 0;
+}

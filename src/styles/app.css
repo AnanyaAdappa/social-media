@@ -2,3 +2,9 @@
   font-family: "Bebas Neue", sans-serif;
   font-family: "Inter", sans-serif;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center */
+  align-items: center;
+}
