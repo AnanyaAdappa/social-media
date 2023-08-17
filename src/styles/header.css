@@ -1,8 +1,9 @@
 .headerMain {
   display: flex;
   justify-content: space-between;
-  margin: 24px 48px;
+  padding: 24px 48px;
   align-items: center;
+  width: calc(100% - 96px);
 }
 .headerLogo {
   color: #fff;
