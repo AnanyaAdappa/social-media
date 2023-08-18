@@ -25,6 +25,22 @@ const Box2 = () => {
           </div>
         </div>
       </div>
+      <div className="statistic">
+        <img src="follow.svg" alt="" className="follow" />
+        {/* <img src="Piechart.svg" alt="" className="piechart" /> */}
+
+        <div className="profit">
+          <h1 className="control">control profit and audience</h1>
+          <p className="desc">
+            using our platform, you can be sure that only artificial
+            intelligence will help you, but ALSO REAL PROFESSIONALS WHO HAVE
+            BEEN DOING FOR MANY YEARS.
+          </p>
+        </div>
+        <div className="graph2">
+          <img src="ticks.svg" alt="" className="ticks" />
+        </div>
+      </div>
     </div>
   );
 };
