@@ -26,6 +26,22 @@ const Box2 = () => {
           </div>
         </div>
       </div>
+
+      <div className="statistics">
+        <img src="graph.svg" alt="" className="graph" />
+        <div className="profit">
+          <h1 className="ctrlprofit">control profit and audience</h1>
+
+          <p className="description">
+            using our platform, you can be sure that only artificial
+            intelligence will help you, but ALSO REAL PROFESSIONALS WHO HAVE
+            BEEN DOING FOR MANY YEARS.
+          </p>
+        </div>
+        <div className="graph2">
+          <img src="ticks.svg" alt="" className="tick" />
+        </div>
+      </div>
     </div>
   );
 };

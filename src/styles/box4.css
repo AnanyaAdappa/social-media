@@ -1,0 +1,107 @@
+.accessmatrice {
+  display: flex;
+  padding: 32px 0px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+
+  width: 90%;
+  height: 319px;
+}
+.seamlessaccess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  width: 80%;
+}
+.num2 {
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Bebas Neue;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  color: black;
+
+  display: flex;
+  width: 80%;
+  align-items: flex-start;
+  gap: 10px;
+}
+.metrics {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Bebas Neue;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  width: 80%;
+}
+.seamlessly {
+  color: #9aeaac;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Bebas Neue;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  width: 80%;
+
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.descaccess {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 150% */
+  letter-spacing: 0.32px;
+  width: 80%;
+}
+.box4 {
+  display: flex;
+  padding: 48px 72px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  align-self: stretch;
+  width: 90%;
+
+  border-radius: 12px;
+  background: #fff;
+}
+.subbox4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.Bigbox {
+  display: flex;
+  width: 1152px;
+  padding: 24px 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 90%;
+}

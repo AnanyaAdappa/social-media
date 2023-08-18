@@ -1,0 +1,67 @@
+.box5 {
+  display: flex;
+  width: 100%;
+  padding: 64px 200px;
+  align-items: center;
+  gap: 24px;
+}
+.connect {
+  width: 270.84px;
+  height: 262.54px;
+  flex-shrink: 0;
+}
+.easyconnect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.num3 {
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+
+  display: flex;
+  width: 170px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.easytoconnect {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #ec9c9e;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.56px;
+}
+.desceasy {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}

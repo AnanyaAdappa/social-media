@@ -1,0 +1,68 @@
+.box6 {
+  display: flex;
+  width: 80%;
+  padding: 48px 0px;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.socialeffective {
+  stroke-width: 1px;
+  stroke: white;
+  color: black;
+  font-size: 120px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: black;
+  text-transform: uppercase;
+  position: absolute;
+  top: 15%;
+  z-index: 0;
+  width: 500%;
+  text-align: center;
+}
+.allinone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  z-index: 1;
+}
+.useranalysis {
+  width: 365.658px;
+  height: 539.033px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.analysis {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  z-index: 1;
+}
+.get1 {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #fff;
+  z-index: 1;
+}
+.get2 {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: #000;
+  z-index: 1;
+}
