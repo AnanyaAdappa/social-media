@@ -1,8 +1,7 @@
 .B2 {
   display: flex;
-  /* width: 100% */
-
-  padding: 84px 200px;
+  /* width: 100%; */
+  /* padding: 84px 200px; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,12 +22,18 @@
 }
 .data {
   display: flex;
-  width: 1152px;
-  padding: 84px 200px;
+  width: 90%;
+  /* padding: 84px 200px; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
+}
+@media only screen and (max-width: 720px) {
+  .data {
+    /* flex-direction: column; */
+    width: 80%;
+  }
 }
 .data1 {
   display: flex;
@@ -39,12 +44,19 @@
 }
 .D1 {
   display: flex;
-  width: 245.333px;
+
   padding: 20px 12px;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
   background: #a1e5dd;
+  width: 20%;
+}
+@media only screen and (max-width: 720px) {
+  .D1 {
+    /* flex-direction: column; */
+    width: 40%;
+  }
 }
 .D2 {
   display: flex;
@@ -82,12 +94,19 @@
 }
 .D6 {
   display: flex;
-  width: 245.333px;
+  /* width: 245.333px; */
   padding: 20px 12px;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
   background: #ffd3d3;
+  width: 20%;
+}
+@media only screen and (max-width: 720px) {
+  .D6 {
+    /* flex-direction: column; */
+    width: 40%;
+  }
 }
 .P1 {
   color: #000;
@@ -127,15 +146,16 @@
 }
 .statistics {
   display: flex;
-  padding: 40px 32px;
+  /* padding: 40px 32px; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  align-self: stretch;
-
+  align-self: initial;
+  position: relative;
   border-radius: 12px;
   border: 1px solid #e6b63c;
+  width: 100%;
 }
 .graph {
   display: flex;
@@ -148,6 +168,9 @@
   height: 100px;
   transform: rotate(0deg);
   flex-shrink: 0;
+  position: absolute;
+  left: 64px;
+  top: 64px;
 }
 .profit {
   display: flex;

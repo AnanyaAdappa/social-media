@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Heading from "./components/Heading";
-import Box1 from "./components/box1";
+import Box1 from "./components/Box1";
 import Box2 from "./components/Box2";
 import Box3 from "./components/Box3";
 import Box4 from "./components/Box4";

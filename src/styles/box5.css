@@ -1,7 +1,7 @@
 .box5 {
   display: flex;
   width: 100%;
-  padding: 64px 200px;
+
   align-items: center;
   gap: 24px;
 }
@@ -26,12 +26,14 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-
   display: flex;
-  width: 170px;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ec9c9e;
+  -webkit-text-fill-color: black;
+  text-transform: uppercase;
 }
 .easytoconnect {
   color: #fff;

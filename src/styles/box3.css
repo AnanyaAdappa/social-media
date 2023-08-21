@@ -1,7 +1,7 @@
 .picture {
   display: flex;
   width: 100%;
-  padding: 48px 70px;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -12,13 +12,19 @@
   align-items: center;
   gap: 24px;
 }
+@media only screen and (max-width: 720px) {
+  .picture {
+    width: 90%;
+    text-align: justify;
+  }
+}
 .bigpicture {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
-  width: 100%;
+  gap: 20px;
+  width: 90%;
 }
 .num1 {
   leading-trim: both;
@@ -29,6 +35,11 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
+  justify-content: start;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e6b63c;
+  -webkit-text-fill-color: black;
 }
 
 .bigheading {
@@ -74,4 +85,10 @@
   position: absolute;
   right: 36.5px;
   top: auto;
+}
+@media only screen and (max-width: 720px) {
+  .image {
+    display: flex;
+    width: 20%;
+  }
 }
