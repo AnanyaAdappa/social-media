@@ -1,15 +1,20 @@
 .BOX {
   display: flex;
   width: 90%;
-  padding: 24px 200px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding: 20px;
+}
+@media only screen and (max-width: 720px) {
+  .BOX {
+    width: 90%;
+  }
 }
 .box4 {
   display: flex;
-  padding: 48px 72px;
+
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
@@ -26,9 +31,9 @@
   align-self: stretch;
 }
 .matrix {
-  width: 250px;
+  /* width: 250px; */
   height: 319px;
-  width: 80%;
+  width: 90%;
 }
 .seamless {
   display: flex;
@@ -53,6 +58,10 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
+
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: white;
 }
 .access {
   color: #000;
@@ -64,7 +73,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.56px;
-  width: 80%;
+  width: 100%;
 }
 .seam {
   color: #9aeaac;
@@ -76,17 +85,17 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.56px;
-  width: 80%;
+  width: 100%;
 }
 .descrip {
   color: #000;
   leading-trim: both;
   text-edge: cap;
   font-family: Inter;
-  font-size: 8px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 12px; /* 150% */
+  line-height: 12px;
   letter-spacing: 0.32px;
   width: 80%;
 }

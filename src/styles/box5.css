@@ -1,15 +1,19 @@
 .box5 {
   display: flex;
-  width: 1152px;
-  padding: 64px 200px;
+  /* padding: 64px 200px; */
   align-items: center;
   gap: 24px;
-  width: 90%;
+  width: 100%;
 }
+/* @media only screen and (max-width: 720px) {
+  .box5 {
+    width: auto;
+  }
+} */
 .phone {
-  width: 270.84px;
-  height: 262.54px;
-  flex-shrink: 0;
+      /* width: 270.84px; */
+      height: 262.54px;
+      flex-shrink: 0;
 }
 .easy {
   display: flex;
@@ -32,6 +36,9 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #ec9c9e;
+  -webkit-text-fill-color: black;
 }
 .connect {
   color: #fff;
@@ -56,7 +63,7 @@
   line-height: normal;
   letter-spacing: 0.48px;
   display: flex;
-  width: 80%;
+  width: 90%;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;

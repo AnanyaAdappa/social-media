@@ -10,14 +10,14 @@ const Box6 = () => {
           potential of social to transform not just your marketing strategy -
           but every area of your organisation.
         </p>
-        <div className="gets">
-          <img src="gets1.svg" alt="" className="get1" />
-          <img src="gets2.svg" alt="" className="get2" />
+        <div className="get">
+          {/* <img src="gets1.svg" alt="" className="get1" />
+          <img src="gets2.svg" alt="" className="get2" /> */}
+          <p className="get1">GET STARTED</p>
+          <p className="get2">GET STARTED</p>
         </div>
       </div>
-      <p className="social">
-        social effective active
-      </p>
+      <p className="social">social effective active</p>
     </div>
   );
 };

@@ -1,12 +1,19 @@
 .box6 {
   display: flex;
-  width: 1152px;
-  padding: 48px 0px;
+  width: 90%;
   justify-content: center;
   align-items: flex-end;
-  width: 80%;
   position: relative;
+  padding: 10px;
 }
+@media only screen and (max-width: 720px) {
+  .box6 {
+    width: 100%;
+    flex-direction: column;
+    text-align: justify;
+  }
+}
+
 .social {
   stroke-width: 1px;
   stroke: white;
@@ -22,11 +29,18 @@
   width: 500%;
   text-align: center;
 }
+@media only screen and (max-width: 720px) {
+  .social {
+    width: 225%;
+    text-align: justify;
+  }
+}
 .user {
-  width: 365.658px;
+  /* width: 365.658px; */
   height: 539.033px;
   flex-shrink: 0;
   z-index: 1;
+  width: 60%;
 }
 .useranalysis {
   display: flex;
@@ -34,6 +48,7 @@
   align-items: flex-start;
   gap: 36px;
   z-index: 1;
+  width: 90%;
 }
 .analysis {
   color: #fff;
@@ -43,9 +58,15 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
   z-index: 1;
+  width: 90%;
+}
+.get {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
 }
 .get1 {
   display: flex;
@@ -54,6 +75,15 @@
   align-items: center;
   border-radius: 4px;
   background: #fff;
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }
 .get2 {
   display: flex;
@@ -63,4 +93,13 @@
   border-radius: 4px;
   border: 1px solid #fff;
   background: #000;
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }

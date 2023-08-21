@@ -10,8 +10,10 @@ const Box1 = () => {
           but every area of your organisation.
         </p>
         <div className="gets">
-          <img src="gets1.svg" alt="" className="gets1" />
-          <img src="gets2.svg" alt="" className="gets2" />
+          {/* <img src="gets1.svg" alt="" className="gets1" /> */}
+          {/* <img src="gets2.svg" alt="" className="gets2" /> */}
+          <p className="gets1">GET STARTED</p>
+          <p className="gets2">GET STARTED</p>
         </div>
       </div>
       <div>
