@@ -9,6 +9,7 @@
   .B1 {
     flex-direction: column-reverse;
     text-align: justify;
+    justify-content: center;
   }
 }
 .subB1 {
@@ -55,7 +56,12 @@
   font-family: "Bebas Neue", sans-serif;
 }
 .component1 {
-  width: 90%;
+  /* width: 100%; */
   height: 640.283px;
   flex-shrink: 0;
+}
+@media only screen and (max-width: 720px) {
+  .component1 {
+    width: 90%;
+  }
 }

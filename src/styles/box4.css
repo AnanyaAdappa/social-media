@@ -1,11 +1,12 @@
 .BOX {
+  margin-top: 45px;
   display: flex;
   width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 20px;
+  /* padding: 20px; */
 }
 @media only screen and (max-width: 720px) {
   .BOX {
@@ -35,6 +36,7 @@
   height: 319px;
   width: 90%;
 }
+
 .seamless {
   display: flex;
   flex-direction: column;
@@ -58,8 +60,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-
-  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   -webkit-text-fill-color: white;
 }

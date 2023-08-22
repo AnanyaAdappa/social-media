@@ -1,4 +1,5 @@
 .box5 {
+  margin-top: 45px;
   display: flex;
   /* padding: 64px 200px; */
   align-items: center;
@@ -11,9 +12,9 @@
   }
 } */
 .phone {
-      /* width: 270.84px; */
-      height: 262.54px;
-      flex-shrink: 0;
+  /* width: 270.84px; */
+  height: 262.54px;
+  flex-shrink: 0;
 }
 .easy {
   display: flex;
@@ -36,7 +37,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ec9c9e;
   -webkit-text-fill-color: black;
 }
