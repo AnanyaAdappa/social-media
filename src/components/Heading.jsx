@@ -15,16 +15,17 @@ const Heading = () => {
       },
     },
   };
+
   return (
     <motion.div
-      className="headingMain"
+      className="HeadingMain"
       variants={marqueeVariants}
       animate="animate"
     >
-      <h1 className="headingLogo">CTIVE</h1>
-      <img src="Frame.svg" alt="" className="headingImage" />
-      <h1 className="headingLogo">SOCIAL MEDIA</h1>
-      <h1 className="headingLogo">B</h1>
+      <h1 className="Headinglogo">CTIVE</h1>
+      <img src="Frame.svg" alt="" className="headimage" />
+      <h1 className="Headinglogo">SOCIAL MEDIA</h1>
+      <h1 className="Headinglogo">B</h1>
     </motion.div>
   );
 };

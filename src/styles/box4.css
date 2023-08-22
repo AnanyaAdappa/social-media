@@ -1,43 +1,18 @@
-.BOX {
-  margin-top: 45px;
-  display: flex;
-  width: 90%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  /* padding: 20px; */
-}
-@media only screen and (max-width: 720px) {
-  .BOX {
-    width: 90%;
-  }
-}
-.box4 {
-  display: flex;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 24px;
-  align-self: stretch;
-  border-radius: 12px;
-  background: #fff;
-}
-.subbox4 {
+.accessmatrice {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 24px;
-  align-self: stretch;
-}
-.matrix {
-  /* width: 250px; */
+  gap: 10px;
+  width: 80%;
   height: 319px;
-  width: 90%;
 }
-
-.seamless {
+@media only screen and (max-width: 720px) {
+  .accessmatrice {
+    width: 18%;
+    height: 440px;
+  }
+}
+.seamlessaccess {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,13 +20,13 @@
   gap: 24px;
   width: 80%;
 }
-.numb {
-  display: flex;
-  width: 230px;
-  align-items: flex-start;
-  gap: 10px;
-  color: #000;
-  width: 80%;
+@media only screen and (max-width: 720px) {
+  .seamlessaccess {
+    text-align: justify;
+    width: 80%;
+  }
+}
+.num2 {
   leading-trim: both;
   text-edge: cap;
   font-family: Bebas Neue;
@@ -60,11 +35,14 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: white;
+  color: black;
+
+  display: flex;
+  width: 90%;
+  align-items: flex-start;
+  gap: 10px;
 }
-.access {
+.metrics {
   color: #000;
   leading-trim: both;
   text-edge: cap;
@@ -76,7 +54,7 @@
   letter-spacing: 2.56px;
   width: 100%;
 }
-.seam {
+.seamlessly {
   color: #9aeaac;
   leading-trim: both;
   text-edge: cap;
@@ -87,16 +65,58 @@
   line-height: normal;
   letter-spacing: 2.56px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  align-items: initial;
+  gap: 20px;
 }
-.descrip {
+@media only screen and (max-width: 720px) {
+  .seamlessly {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.descaccess {
   color: #000;
   leading-trim: both;
   text-edge: cap;
   font-family: Inter;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 12px; /* 150% */
   letter-spacing: 0.32px;
   width: 80%;
+}
+.box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.subbox4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.Bigbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  width: 90%;
+  justify-items: center;
+  margin-top: 45px;
 }

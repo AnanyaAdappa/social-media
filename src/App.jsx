@@ -7,6 +7,7 @@ import Box6 from "./components/Box6";
 
 import Header from "./components/Header";
 import Heading from "./components/Heading";
+
 import Box7 from "./components/Box7";
 import "./styles/app.css";
 
@@ -14,8 +15,8 @@ function App() {
   return (
     <div className="app">
       {/* Write your code here */}
-      <Header />
-      {/* <Heading /> */}
+      <Header />S
+      <Heading />
       <Box1 />
       <Box2 />
       <Box3 />

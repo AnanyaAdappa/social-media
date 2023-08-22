@@ -1,4 +1,4 @@
-.headingMain {
+.HeadingMain {
   display: flex;
   width: 1152px;
   height: 102px;
@@ -6,20 +6,20 @@
   align-items: center;
   justify-content: space-between;
 }
-.headingLogo {
+.Headinglogo {
   overflow: hidden;
   color: #fff;
   leading-trim: both;
   text-edge: cap;
   text-overflow: ellipsis;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 146px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5.84px;
 }
-.headingImage {
+.headimage {
   width: 98px;
   height: 98px;
   flex-shrink: 0;

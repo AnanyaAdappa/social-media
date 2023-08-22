@@ -1,5 +1,4 @@
 .box7 {
-  margin-top: 45px;
   display: flex;
   width: 90%;
   flex-direction: column;
@@ -7,11 +6,11 @@
   align-items: center;
   gap: 48px;
   padding: 10px;
+  margin-top: 45px;
 }
-
 @media only screen and (max-width: 720px) {
-  .box8 {
-    width: auto;
+  .box7 {
+    width: 80%;
   }
 }
 .topbrand {
@@ -19,7 +18,7 @@
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -28,19 +27,19 @@
 }
 .white {
   display: flex;
-  padding: 32px 24px;
+
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
+  padding: 32px 24px;
   border-radius: 12px;
   background: #fff;
 }
-.num11x {
+.xw {
   leading-trim: both;
-  color: #000;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
@@ -49,13 +48,14 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   -webkit-text-fill-color: white;
+  text-transform: uppercase;
 }
 .roi {
   color: #000;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
+  font-family: Inter;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 150% */
@@ -67,29 +67,33 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  padding: 32px 24px;
   align-self: stretch;
+
   border-radius: 12px;
   background: #ff9565;
 }
-.x {
+.xo {
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: #ff9565;
+  -webkit-text-fill-color: white;
+  text-transform: uppercase;
 }
-.roi1 {
+.ROI {
   color: #000;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
+  font-family: Inter;
+  font-size: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 150% */
@@ -106,92 +110,88 @@
   border-radius: 12px;
   background: #e6b63c;
 }
-.x30 {
+.num {
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
+
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: #e6b63c;
+  -webkit-text-fill-color: white;
+  text-transform: uppercase;
 }
-.brand {
+.worldclass {
   color: #000;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px; /* 114.286% */
   letter-spacing: 1.12px;
 }
-.connection {
+.socials {
   color: #000;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
+  font-family: Inter;
+  font-size: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 150% */
   letter-spacing: 0.32px;
 }
-.div1 {
+.footer {
   display: flex;
-  flex-direction: row;
-  column-gap: 10px;
-  width: 100%;
-}
-.div2 {
-  display: flex;
-  flex-direction: column;
-  column-gap: 10px;
-  gap: 10px;
-}
-.box8 {
-  display: flex;
-  width: 90%;
+
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
 }
-.socio {
+@media only screen and (max-width: 720px) {
+  .footer {
+    padding: 10px;
+  }
+}
+.social {
   color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 24px;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 42px; /* 175% */
   letter-spacing: 0.96px;
 }
-.socialbox {
+
+.descfooter {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 64px;
+  gap: 50px;
   flex: 1 0 0;
 }
-.usefulbox {
+.udl {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 5px;
 }
-.links {
+.useful {
   color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -199,18 +199,11 @@
   letter-spacing: 0.48px;
 }
 .download {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 12px;
-}
-.now {
   color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -222,22 +215,36 @@
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Bebas Neue;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 42px; /* 350% */
   letter-spacing: 0.48px;
 }
-.rights {
+.higherroi {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  gap: 10px;
+}
+
+.reserved {
   color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: 42px; /* 525% */
   letter-spacing: 0.32px;
+  align-items: center;
+  display: flex;
 }
