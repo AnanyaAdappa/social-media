@@ -1,14 +1,25 @@
 .box5 {
   display: flex;
-  width: 100%;
-
+  width: 90%;
   align-items: center;
   gap: 24px;
+  margin-top: 45px;
 }
+@media only screen and (max-width: 720px) {
+  .box5 {
+    width :150%;
+  }
+}
+
 .connect {
   width: 270.84px;
   height: 262.54px;
   flex-shrink: 0;
+}
+@media only screen and (max-width: 720px) {
+  .connect {
+    height:220px;
+  }
 }
 .easyconnect {
   display: flex;
@@ -17,6 +28,7 @@
   align-items: flex-start;
   gap: 24px;
 }
+
 .num3 {
   leading-trim: both;
   text-edge: cap;

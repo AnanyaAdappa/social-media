@@ -1,6 +1,6 @@
 .B1 {
   display: flex;
-  width: 100%;
+  width: 90%;
   /* padding: 48px 0px; */
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 @media only screen and (max-width: 720px) {
   .B1 {
     flex-direction: column-reverse;
-
+    width: 80%;
     text-align: justify;
   }
 }
@@ -59,8 +59,13 @@
   color: #000;
 }
 .component1 {
-  width: 90%;
-  width: 80;
-  height: 600px;
+  /* width: 90%; */
+
+  height: 620px;
   flex-shrink: 0;
+}
+@media only screen and (max-width: 720px) {
+  .component1 {
+    width: 90%;
+  }
 }
